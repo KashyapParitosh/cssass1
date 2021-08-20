@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        *{
+            margin: none;
+            padding : none;
+        }
+        #div1 {
+            background-image: url(https://wallpapercave.com/wp/9DUWNZk.jpg);
+        }
+
+        #ol1 {
+            color: rgb(204, 20, 20);
+            font-weight: 600;
+        }
+
+        #ul1 {
+            color: rgb(204, 20, 20);
+            letter-spacing: 4px;
+        }
+
+        #anchor1 {
+            color: rgb(204, 20, 20);
+            background-color: yellow;
+        }
+
+        .para {
+            color: blue;
+        }
+
+        #imgwithanchor {
+            align-content: center;
+            margin-left: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <h1 style="color: red;">This is First Css Assingment</h1>
+        <hr>
+        <h2 style="color: red;">What is CSS</h2>
+        <ol id="ol1">
+            <li>CSS stands for Cascading Style Sheets</li> <br>
+            <li>CSS describes how HTML. elements are to be displayed on screen, paper, or in other media</li> <br>
+            <li>
+                <font style="text-decoration: line-through;">Css is not neccesary</font>
+                <font style="background-color: yellow;">CSS saves a lot of work.</font>it can control the layout of
+                multiple web pages all at once
+            </li> <br>
+            <li>External stylesheet are stored in CSS files</li>
+        </ol> <br>
+
+        <h2 style="color: red;">CSS can be added to HTML documents in 3 ways</h2>
+
+        <ul id="ul1">
+            <li>inline - by using the style attribute inside HTML elementsl</li>
+            <li>internal - by using a style element in th head section</li>
+            <li>External - by using a link element to link to an external CSS file</li>
+            <li>the most common way to add css, is to keep the styles in external CSS, however, <font
+                    style="background-color: yellow;">in this tutorial we will use inline and internals styles,</font>
+                beacuse this is easier to detmonstrate, and easier for you to try it yourself. </li>
+        </ul>
+
+        <p class="para">when comparing CSS class vs ID, the difference is that CSS class applies a style to multiple
+            elements. ID on the other hand, applies a style</p> <br>
+
+        <a href="./cssass1.1.html" id="anchor1" style="text-decoration: none;">Prepbytes Home</a> <br>
+
+        <div id="imgwithanchor"><a href="./cssass1.1.html"><img src="../backfround image for gg.jpg" height="100px"
+                    width="150px" alt="Error"></a></div>
+    </div>
+
+    
+</body>
+
+</html>
